@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Derrin Gibbs Industrial Services</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<script type="https://maps.googleapis.com/maps/api/js"></script>
+<script>
+	function initialize() {
+		var mapCanvas = document.getElementById('map');
+		var mapOptions = {
+			center: new google.maps.LatLng(44.5403, -78.5463)
+			mapTypeId: google.maps.mapTypeId.ROADMAP
+		}
+		var map = new google.maps.Map(mapCanvas);
+	}
+	google.maps.event.addDomListener(window, 'load' initialize);
+</script>
+
+</head>
+<body>
+<header><!--navbar-->
+	<nav class="navbar navbar-default" role="navigation">
+	 <div class="container-fluid">
+		<div class="navbar-navbar-header">
+			<a class="navbar-brand" href="#">Derrin Gibbs</a>
+		</div>
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="#about">About</a></li>
+			<li><a href="#services">Services</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+	 </div>
+	</nav>
+	<!--navbar-->
+	<div class="container">
+		<h1>Derrin Gibbs Industrial Services</h1>
+			<p>Helping Valley Businesses Thrive</p>
+			<div class="divider">
+			</div>
+		<button type="button" class="btn btn-danger btn-lg">Call Us</button>
+	</div>
+</header>
+
+<!--about container section-->
+<div class="container-1">
+<div class="row">
+<h2>We offer the following services:</h2>
+
+<button type="button" class="btn btn-primary">Facilities Maintenance</button>
+
+<button type="button" class="btn btn-primary">Manufacturing</button>
+
+<button type="button" class="btn btn-primary"> Commercial/Industrial Construction </button>
+</div>
+</div>
+
+<div class="spacer">
+</div>
+
+<div class="container-1">
+	<div class="row">
+	<div class="col-md-6">
+		<h2>About Us</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur repellat ipsa quidem consequuntur beatae nihil praesentium quod odit ducimus, accusantium excepturi voluptatibus reprehenderit ea est ut, assumenda molestiae voluptatum sequi.</p>
+	</div>
+<div class="col-md-6">
+	<img src="images/drill.jpg" class="pull-right">
+</div>
+<div class="box">
+	<div container>
+		<div class="row">
+			<div class="col-md-6">
+				<img src="images/welder.jpg" class="pull-right">			
+			</div>
+
+			<div class="col-md-6">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis sed sapiente, provident rem! Amet possimus reiciendis architecto, cumque iure suscipit, veritatis, provident inventore quia ipsum, tenetur dolorum molestias officia quam.</p>
+			</div>	
+			
+		</div>
+		
+	</div>
+<div id="map">
+	
+</div>
+
+<footer>
+	&copy; Derrin Gibbs Industrial Serivices 2015.
+</footer>
+
+
+
+<!-- minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+</html>

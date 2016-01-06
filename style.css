@@ -1,0 +1,71 @@
+body {
+	margin: 0;
+	font-family: arial, sans-serif;
+	background-color: white;
+}
+
+nav {
+	display: inline-block;
+}
+
+nav a {
+	text-decoration: none;
+	color: gray;
+	font-size: 14px;
+	padding: 0 25px;
+}
+.navbar-default {
+  border: none;
+}
+
+header {
+	position: relative;
+	background: url('images/rosie-riveter.jpg') center center no-repeat;
+	text-align: center;
+	height: 700px;
+	background-color: yellow;
+}
+
+header h1 {
+	color: white;
+	text-align: center;
+	padding-top: 90px;
+}
+
+header p {
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.divider {
+	border-bottom: 2px solid;
+	width: 500px;
+	margin: 0 auto;
+	color: white;
+	padding-bottom: 10px;
+}
+
+
+.spacer {
+	padding-bottom: 90px;
+}
+.container-1 {
+	background-color: white;
+} 
+
+.container-2 {
+	background-color: gray;
+}
+
+#map {
+	width: 500px;
+	height: 400px;
+	background-color: #2e2e1f;
+}
+
+footer {
+	background-color: #CCC;
+	color: white;
+}
+
