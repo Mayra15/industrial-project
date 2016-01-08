@@ -47,15 +47,16 @@ header p {
 }
 
 .spacer {
-	padding-bottom: 90px;
+	padding-bottom: 20px;
 }
+
 .box {
 	background-color: white;
 	padding-top: 20px;
 } 
 
-.box-1 {
-	padding-top: 20px;
+#services {
+	background-color: #D3D3D3;
 }
 
 #map {
@@ -66,6 +67,8 @@ header p {
 
 footer {
 	background-color: white;
-	color: #CCC;
+	color: #2e2e1f;
+	text-align: center;
+	height: 100px;
 }
 
