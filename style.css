@@ -57,8 +57,14 @@ header p {
 
 #services {
 	background-color: #D3D3D3;
+	width: 100%;
 }
 
+.box-1 {
+	padding-top: 20px;
+	padding-bottom: 50px;
+
+}
 #map {
 	width: 100%;
 	height: 200px;
@@ -70,5 +76,6 @@ footer {
 	color: #2e2e1f;
 	text-align: center;
 	height: 100px;
+	width: 100%;
 }
 
