@@ -63,6 +63,7 @@ header p {
 #services {
 	background-color: #D3D3D3;
 	width: 100%;
+	padding-bottom: 20px;
 }
 
 .line {
@@ -74,11 +75,8 @@ header p {
 
 .box-1 {
 	padding-top: 20px;
-	padding-bottom: 50px;
 }
-ul {
-	list-style-type: dashed;
-}
+
 #list {
 	padding-top: 20px;
 }
@@ -95,5 +93,6 @@ footer {
 	text-align: center;
 	height: 100px;
 	width: 100%;
+	font-size: small;
 }
 
