@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	font-family: arial, sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
 	background-color: white;
 }
 
@@ -75,6 +75,11 @@ header p {
 
 .box-1 {
 	padding-top: 20px;
+
+}
+
+ul {
+ list-style: 
 }
 
 #list {
@@ -83,8 +88,17 @@ header p {
 
 #map {
 	width: 100%;
-	height: 200px;
+	height: 300px;
 	background-color: #2e2e1f;
+	color: white;
+	padding-top: 20px;
+}
+#map img {
+	float: right;
+}
+#map-text {
+	text-align: left;
+	float: right;
 }
 
 footer {
@@ -94,5 +108,6 @@ footer {
 	height: 100px;
 	width: 100%;
 	font-size: small;
+	padding-top: 20px;
 }
 
