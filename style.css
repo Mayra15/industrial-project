@@ -85,7 +85,8 @@ header p {
 
 }
 #services img {
-	margin-left: 61px;
+	margin-left: 60px;
+
 }
 
 .line {
@@ -93,10 +94,15 @@ header p {
 	width: 300px;
 	padding-top: 5px;
 	padding-bottom: 10px;
+	margin-left: 30px;
 }
 
 #list {
 	padding-top: 20px;
+}
+
+ul {
+	margin-left: 10px;
 }
 
 #map {
@@ -122,4 +128,5 @@ footer {
 	font-size: x-small;
 	padding-top: 20px;
 }
+
 
