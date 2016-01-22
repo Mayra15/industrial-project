@@ -78,6 +78,10 @@ header p {
 	border-bottom: 2px solid #F8F8F8;
 }
 
+.box-1 {
+	display: inline;
+}
+
 #services {
 	background-color: #D3D3D3;
 	padding-top: 20px;
@@ -85,7 +89,7 @@ header p {
 
 }
 #services img {
-	margin-left: 60px;
+	margin-left: 40px;
 
 }
 
@@ -100,7 +104,6 @@ header p {
 #list {
 	padding-top: 20px;
 }
-
 ul {
 	margin-left: 10px;
 }
