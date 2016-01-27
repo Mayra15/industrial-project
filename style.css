@@ -80,13 +80,11 @@ header p {
 
 .container-fluid {
 	background-color: #D3D3D3;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding: 20px;
 }
 
 #services img {
-	margin-left: 100px;	
-	padding-left: 15px;
+	margin-left: 200px;	
 }
 
 .line {
@@ -105,6 +103,7 @@ header p {
 
 .col-md-3 ul {
 	margin-left: 10px;
+	padding-top: 10px;
 }
 
 #map {
