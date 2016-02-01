@@ -78,13 +78,13 @@ header p {
 	border-bottom: 2px solid #F8F8F8;
 }
 
-.container-fluid {
+/*.container-fluid {
 	background-color: #D3D3D3;
 	padding: 20px;
 }
-
+*/
 #services img {
-	margin-left: 200px;	
+	margin-right: 60px;	
 }
 
 .line {
@@ -94,9 +94,11 @@ header p {
 	padding-bottom: 10px;
 	margin-left: 30px;
 }
+
 #one {
 	padding-right: 10px;
 }
+
 #list {
 	padding-top: 20px;
 }
