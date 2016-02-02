@@ -65,17 +65,21 @@ header p {
 
 }
 
-.box {
-	background-color: white;
-	padding-top: 20px;
-} 
-.box h2 {
-	font-weight: bold;
-}
-
 .first, .second, .third {
 	padding: 20px;
 	border-bottom: 2px solid #F8F8F8;
+}
+
+#about {
+	background-color: white;
+	padding-top: 20px;
+} 
+
+#about h2 {
+	font-weight: bold;
+}
+#about img {
+	max-width: 100%;
 }
 
 #services  {
@@ -84,7 +88,7 @@ header p {
 }
 
 #services img {
-	margin-right: 20px;
+	max-width: 100%;
 }
 
 .line {
