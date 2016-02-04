@@ -58,15 +58,14 @@ header p {
 }
 .container-fluid {
 	font-size: 14px;
-	font-weight: 500px;
 }
 .container-fluid h2 {
 	font-weight: bold;
-
+	padding-left: 40px;
 }
 
 .first, .second, .third {
-	padding: 20px;
+	padding: 20px 50px;
 	border-bottom: 2px solid #F8F8F8;
 }
 
@@ -74,10 +73,6 @@ header p {
 	background-color: white;
 	padding-top: 20px;
 } 
-
-#about h2 {
-	font-weight: bold;
-}
 #about img {
 	max-width: 100%;
 }
