@@ -107,13 +107,14 @@ header p {
 	padding-top: 10px;
 }
 
-#map {
+/*#map {
 	width:500px;
 	height: 400px;
 	background-color: #CCC;
 	color: white;
 	padding-top: 20px;
-}
+}*/
+
 
 #map-text {
 	text-align: left;
