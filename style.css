@@ -77,12 +77,12 @@ header p {
 	max-width: 100%;
 }
 
-#services  {
+.services  {
 	background-color: #D3D3D3;
 	padding: 20px;
 }
 
-#services img {
+.services img {
 	max-width: 100%;
 }
 
