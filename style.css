@@ -107,13 +107,12 @@ header p {
 	padding-top: 10px;
 }
 
-/*#map {
-	width:500px;
-	height: 400px;
-	background-color: #CCC;
+#map {
+	height: 700;
+	background-color: #2e2e1f;
 	color: white;
 	padding-top: 20px;
-}*/
+}
 
 
 #map-text {
