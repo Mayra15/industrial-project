@@ -3,6 +3,7 @@ body {
 	font-family: arial, sans-serif;
 	background-color: white;
 	color: #668;
+	overflow-x: hidden;
 }
 
 nav {
