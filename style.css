@@ -54,6 +54,12 @@ header p {
 	padding-bottom: 10px;
 }
 
+.btn-danger {
+	background-color: #F1433F;
+	border-color: #ccc;
+}
+
+
 .spacer {
 	padding-bottom: 20px;
 }
