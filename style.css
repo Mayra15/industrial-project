@@ -21,13 +21,16 @@ nav {
 	line-height: 20px;
 }
 
+nav .nav-brand a {
+	color: black;
+}
+
 .nav.navbar-nav {
 	text-decoration: none;
 	font-size: 1em;
 	padding: 0 25px;
 	float: right;
 }
-
 
 #myNavbar li a {
 	color: #667;
