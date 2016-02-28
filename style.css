@@ -28,8 +28,6 @@ nav .nav-brand a {
 .nav.navbar-nav {
 	text-decoration: none;
 	font-size: 1em;
-	padding: 0 25px;
-	float: right;
 }
 
 #myNavbar li a {
@@ -40,24 +38,25 @@ header {
 	position: relative;
 	text-align: center;
 	height: 700px;
-	background-color: #667;
+	background-image:url( http://derringibbs.com/img/industrial-hero-2.jpg);
 }
 
 header h1 {
 	color: white;
 	text-align: center;
 	padding-top: 90px;
-	text-shadow: 2px 2px black;
+	text-shadow: 2px 2px 4px black;
 	font-weight: 700;
+	font-size: 4em;
 }
 
-header p {
+header h3 {
 	color: white;
 	text-align: center;
 	padding-top: 10px;
 	font-weight: bold;
-	font-size: medium; 
-	text-shadow: 2px 2px black;
+	font-size: 2em; 
+	text-shadow: 2px 2px 3px black;
 
 }
 
