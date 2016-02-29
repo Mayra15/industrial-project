@@ -37,12 +37,12 @@ nav {
 }
 
 header {
-	position: relative;
+	background-image: url(http://derringibbs.com/img/industrial-hero-2.jpg);
 	text-align: center;
 	background-repeat: no-repeat;
-	height: 700px;
 	background-position: center;
-	background-image:url( http://derringibbs.com/img/industrial-hero-2.jpg);
+	height: 700px;
+	
 }
 
 header h1 {
