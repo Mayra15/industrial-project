@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	font-family: Lato, sans-serif;
+	font-family: Lato, helvetica, sans-serif;
 	background-color: white;
 	color: #668;
 	overflow-x: hidden;
@@ -9,8 +9,11 @@ body {
 nav {
 	display: inline-block;
 }
+
 .navbar.navbar-default {
-	background-color: #fafafa;
+	background-color: #f8f8f8;
+	font-weight: 700;
+	height: 52px;
 }
 
 .navbar-default .navbar-brand {
@@ -42,7 +45,11 @@ header {
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 700px;
-	
+}
+@media (min-width: 1053px) {
+	header {
+		background-size: 100% auto;
+	}
 }
 
 header h1 {
@@ -72,9 +79,10 @@ header h3 {
 	padding-bottom: 10px;
 }
 
-.btn-danger {
-	background-color: #F1433F;
-	border-color: #ccc;
+
+
+header button {
+	font-family: "Lato", helvetica, sans-serif;
 }
 
 .btn-lg {
@@ -82,6 +90,10 @@ header h3 {
 	font-size: 25px;
 }
 
+.btn-danger {
+	background-color: #F1433F;
+	border-color: #ccc;
+}
 
 .spacer {
 	padding-bottom: 20px;
