@@ -150,17 +150,8 @@ header h3 {
 	margin-top: 10px;
 }
 
-#one {
-	padding-right: 10px;
-}
-
-#list {
-	padding-top: 20px;
-}
-
-.col-md-3 ul {
-	/*margin-left: 10px;*/
-	padding-top: 10px;
+.row1 ul, .row2 ul{
+	list-style: none;
 }
 
 .contact {
