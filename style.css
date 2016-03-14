@@ -3,7 +3,7 @@ body {
 	font-family: "Lato", arial, Helvetica, sans-serif;
 	background-color: white;
 	color: #668;
-	overflow-x: hidden;
+	/*overflow-x: hidden;*/
 }
 
 nav {
@@ -36,6 +36,14 @@ nav {
 	color: #777;
 	display: block;
 	font-weight: 700;
+
+}
+
+@media (min-width: 768px;){
+	.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header){
+		margin-right: 105px;
+		margin-left: 145px;
+}
 
 }
 
@@ -101,6 +109,7 @@ header h3 {
 .spacer {
 	padding-bottom: 20px;
 }
+
 .container {
 	font-size: 14px;
 }
@@ -148,6 +157,13 @@ header h3 {
 	border-bottom: 3px solid #C4C0B8;
 	margin-bottom: 10px;
 	margin-top: 10px;
+}
+
+@media (max-width: 990px) {
+	.line {
+		margin: 10px 0;
+		margin-right: 200px;
+	}
 }
 
  .row1 ul, .row2 ul{
