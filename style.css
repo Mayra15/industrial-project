@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	font-family: Lato, helvetica, sans-serif;
+	font-family: "Lato", arial, Helvetica, sans-serif;
 	background-color: white;
 	color: #668;
 	overflow-x: hidden;
@@ -46,6 +46,7 @@ header {
 	background-position: center;
 	height: 700px;
 }
+
 @media (min-width: 1053px) {
 	header {
 		background-size: 100% auto;
@@ -55,7 +56,7 @@ header {
 header h1 {
 	color: white;
 	text-align: center;
-	padding-top: 90px;
+	padding-top: 30vh;
 	text-shadow: 3px 3px 4px #000;
 	font-weight: 700;
 	font-size: 4em;
@@ -64,25 +65,19 @@ header h1 {
 header h3 {
 	color: white;
 	text-align: center;
-	padding-top: 10px;
+	padding-bottom: 10px;
 	font-weight: 700;
 	font-size: 24px; 
-	text-shadow: 3px 3px 4px black;
+	text-shadow: 3px 3px 4px #000;
 
 }
 
 .divider {
-	border-bottom: 1px solid;
-	width: 500px;
-	margin: 20px auto;
+	border-bottom: 1.5px solid white;
+	width: 350px;
+	margin: 0px auto 35px auto;
 	color: white;
 	padding-bottom: 10px;
-}
-
-
-
-header button {
-	font-family: "Lato", helvetica, sans-serif;
 }
 
 .btn-lg {
@@ -92,9 +87,17 @@ header button {
 
 .btn-danger {
 	background-color: #F1433F;
-	border-color: #ccc;
+	border-color: #000;
+	margin: 15px;
 }
-
+#number button {
+	font-size: 30px;
+	font-weight: 700px;
+	margin: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	width: 45px;
+}
 .spacer {
 	padding-bottom: 20px;
 }
@@ -114,14 +117,27 @@ header button {
 #about {
 	background-color: white;
 	padding-top: 20px;
+}
+
+#about h3 {
+	font-size: 30px;
+	font-family: "Lato", Helvetica, arial, sans-serif;
+	font-weight: 700;
 } 
+
+#about p {
+	font-size: 16px;
+}
+
 #about img {
 	max-width: 100%;
 }
 
 .services  {
-	background-color: #D3D3D3;
-	padding: 20px;
+	background-color: #F8F8F8;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-top: 25px;
 }
 
 .services img {
@@ -129,11 +145,9 @@ header button {
 }
 
 .line {
-	border-bottom: 2px solid #606060;
-	width: 300px;
-	padding-top: 5px;
-	padding-bottom: 10px;
-	margin-left: 10px;
+	border-bottom: 3px solid #C4C0B8;
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
 
 #one {
