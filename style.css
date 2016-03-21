@@ -3,7 +3,7 @@ body {
 	font-family: "Lato", arial, Helvetica, sans-serif;
 	background-color: white;
 	color: #668;
-	/*overflow-x: hidden;*/
+	overflow-x: hidden;
 }
 
 nav {
@@ -13,15 +13,12 @@ nav {
 .navbar.navbar-default {
 	background-color: #f8f8f8;
 	font-weight: 700;
-	height: 52px;
+	height: 50px;
 }
 
 .navbar-default .navbar-brand {
 	float: left;
-	height: 50px;
-	padding: 15px 15px;
 	font-size: 18px;
-	line-height: 20px;
 	color: #777;
 	font-weight: 700;
 }
@@ -36,7 +33,6 @@ nav {
 	color: #777;
 	display: block;
 	font-weight: 700;
-
 }
 
 @media (min-width: 768px;){
@@ -94,24 +90,15 @@ header h3 {
 }
 
 .btn-danger {
-	background-color: #F1433F;
-	border-color: #000;
-	margin: 15px;
-}
-#number button {
-	font-size: 30px;
-	font-weight: 700px;
-	margin: 15px;
-	padding-bottom: 15px;
-	text-align: center;
-	width: 45px;
+	background-color: #f1433f;
+	border-color: #ccc;
 }
 .spacer {
 	padding-bottom: 20px;
 }
 
 .container {
-	font-size: 14px;
+	font-size: 14p
 }
 .container h2 {
 	font-weight: bold;
