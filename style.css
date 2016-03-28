@@ -1,8 +1,6 @@
 body {
 	margin: 0;
 	font-family: "Lato", arial, Helvetica, sans-serif;
-	background-color: white;
-	color: #668;
 	overflow-x: hidden;
 }
 
@@ -28,7 +26,6 @@ nav {
 	font-size: 1em;
 	float: left;
 }
-
 .navbar li a {
 	color: #777;
 	display: block;
@@ -86,7 +83,7 @@ header h3 {
 
 .btn-lg {
 	padding: 5px 40px;
-	font-size: 25px;
+	font-size: 25px; 
 }
 
 .btn-danger {
@@ -119,6 +116,7 @@ header h3 {
 	font-size: 30px;
 	font-family: "Lato", Helvetica, arial, sans-serif;
 	font-weight: 700;
+	padding-bottom: 15px;
 } 
 
 #about p {
